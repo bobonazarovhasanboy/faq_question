@@ -12,7 +12,7 @@ function App() {
 	const [expended, setExpended] = useState(false)
 
 	const handleChange = index => {
-		setExpended(expended === index ? false : index)
+		setExpended(expended === index ? false : index)  
 	}
 
 	return (
