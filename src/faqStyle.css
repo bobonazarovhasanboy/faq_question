@@ -1,15 +1,19 @@
-.container {
-  display: inline-flex;
+/* FAQ  css*/
+.faq.container {
+  display:flex;
   justify-content: center;
   height: 100vh;
+  margin:auto;
 }
 
-.accordionContainer {
+.faq .accordionContainer {
   width: 80%;
+  margin:auto;
 }
 
-.icon {
+.faq .icon {
   display: flex;
   align-items: center;
   transition: transform 1s ease;
 }
+/* FAQ  css*/
